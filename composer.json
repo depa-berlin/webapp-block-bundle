@@ -1,0 +1,28 @@
+{
+    "name": "depa/sulu-block-bundle",
+    "type": "symfony-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Depa\\SuluBlockBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maurice Schwarz",
+            "email": "schwarz@designpark.de"
+        }
+    ],
+    "require": {
+        "sulu/sulu": "^2.6",
+        "symfony/config": "^7.2",
+        "symfony/dependency-injection": "^7.2",
+        "symfony/framework-bundle": "^7.2",
+        "jackalope/jackalope-doctrine-dbal": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
