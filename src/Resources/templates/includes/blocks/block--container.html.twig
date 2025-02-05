@@ -1,0 +1,18 @@
+{% set row = false %}
+{% if content.display in ['boxed_row'] %}
+    {% set row = true %}
+{% endif %}
+
+<div class="block--container {{ content.css_class }}" {% if content.css_id|default %}id="{{ content.css_id }}"{% endif %}>
+    {% if row %}
+    <div class="row">{% endif %}
+        {% if content.blocks|default([]) %}
+            {% for block in content.blocks %}
+                {% include 'includes/blocks/' ~ block.type ~ '.html.twig' with {
+                    content: block,
+                    view: view.blocks[loop.index0],
+                } %}
+            {% endfor %}
+        {% endif %}
+        {% if row %}</div>{% endif %}
+</div>

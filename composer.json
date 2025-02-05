@@ -1,10 +1,10 @@
 {
-    "name": "depa/sulu-block-bundle",
+    "name": "depa/webapp-block-bundle",
     "type": "symfony-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Depa\\SuluBlockBundle\\": "src/"
+            "Depa\\WebappBlockBundle\\": "src/"
         }
     },
     "authors": [
@@ -15,9 +15,9 @@
     ],
     "require": {
         "sulu/sulu": "^2.6",
-        "symfony/config": "^7.2",
-        "symfony/dependency-injection": "^7.2",
-        "symfony/framework-bundle": "^7.2",
+        "symfony/config": "^7.1",
+        "symfony/dependency-injection": "^7.1",
+        "symfony/framework-bundle": "^7.1",
         "jackalope/jackalope-doctrine-dbal": "^2.0"
     },
     "config": {

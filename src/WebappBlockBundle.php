@@ -1,13 +1,15 @@
 <?php
 
-namespace Depa\SuluBlockBundle;
+declare(strict_types=1);
+
+namespace Depa\WebappBlockBundle;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
-class SuluBlockBundle extends Extension
+class WebappBlockBundle extends Extension
 {
 
     public function load(array $configs, ContainerBuilder $container)
