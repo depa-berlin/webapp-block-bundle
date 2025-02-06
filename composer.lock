@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b840db1ca4f257cd36351203f9245ade",
+    "content-hash": "984efbed553751c19b581ec6d3d1ecb2",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -4495,6 +4495,53 @@
                 "source": "https://github.com/phpstan/phpdoc-parser/tree/2.0.0"
             },
             "time": "2024-10-13T11:29:49+00:00"
+        },
+        {
+            "name": "pixeldev/protocol-stream",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pixel-Developpement/protocol-stream.git",
+                "reference": "5c7d44a117afb47397de4e35cceeda9954325d06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pixel-Developpement/protocol-stream/zipball/5c7d44a117afb47397de4e35cceeda9954325d06",
+                "reference": "5c7d44a117afb47397de4e35cceeda9954325d06",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0.0 || ^8.0.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nijens\\ProtocolStream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niels Nijens",
+                    "email": "nijens.niels@gmail.com"
+                }
+            ],
+            "description": "A library to create stream wrappers in PHP.",
+            "keywords": [
+                "stream",
+                "wrapper"
+            ],
+            "support": {
+                "source": "https://github.com/Pixel-Developpement/protocol-stream/tree/1.0.3"
+            },
+            "time": "2022-07-15T12:09:54+00:00"
         },
         {
             "name": "psr/cache",
@@ -10927,10 +10974,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
